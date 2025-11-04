@@ -9,6 +9,18 @@
  /* max-height: 300px; */
   overflow-x: auto;
 }
+
+@media (max-width: 1200px) {
+	.results-list {
+		flex-direction: column;
+    		display: flex;
+    		border-radius: 10px;
+    		margin-top: 1rem;
+    		overflow-x: auto;
+	}
+
+}
+
 .results-list-manual {
     width: 100%;
     /* background-color: white; */
