@@ -2,15 +2,15 @@ import "./SearchResult.css";
 
 export const SearchResult = ({ result, username }) => {
   return (
-	<div class="card" onClick={(e) => alert(`You selected ${result}!`)}>
-      <div class="face face1">
-        <div class="content">
+	<div className="card" onClick={(e) => alert(`You selected ${result}!`)}>
+      <div className="face face1">
+        <div className="content">
           <p>{username}</p> 
           
         </div>
       </div>
-      <div class="face face2">
-        <p class="content2">{result}</p>
+      <div className="face face2">
+        <p className="content2">{result}</p>
       </div>
     </div>
     /*<div
